@@ -3,7 +3,7 @@
 /* temporary: 텍스트가 아닌 로고로 변경 예정 */
 .login {
     text-align: center;
-    margin: 230px auto 0;
+    margin: 0 auto;
 }
 .login h1 {
     font-size: 8rem;

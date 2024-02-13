@@ -9,80 +9,78 @@
     <link rel="stylesheet" href="./css/sign_up.css">
 </head>
 <body>
-    <div id="wrap">
-        <div class="container">
-            <div class="content sign_up">
-                <h1 class="logo">WhoamI</h1>
-                <h2 class="section_name">SIGN UP</h2>
-                
-                <fieldset>
-                    <div class="user_name clear">
-                        <label for="i_user_name">닉네임</label>
-                        <input type="text" id="i_user_name">
-                    </div>
-    
-                    <div class="user_birth_n_gender clear">
-                        <div class="user_birth">
-                            <label for="i_user_birth">생년월일</label>
-                            <input type="date" id="i_user_birth">
-                        </div>
-                        <div class="user_gender">
-                            <label for="i_user_gender" class="i_user_gender">
-                                <span class="on">남</span>
-                                <input type="radio" id="man" name="agree" value="남성" />
-                            </label>
-                            <label for="i_user_gender" class="i_user_gender">
-                                <span class="on">여</span>
-                                <input type="radio" id="woman" name="agree" value="여성" />
-                            </label>
-                        </div>
-                    </div>
-                    
-                    <div class="user_btype clear">
-                        <label for="i_user_btype">혈액형</label>
-                        <label for="A">A</label>
-                        <input type="radio" id="A" name="user_btype" value="A" />
-                        <label for="B">B</label>
-                        <input type="radio" id="B" name="user_btype" value="B" />
-                        <label for="O">O</label>
-                        <input type="radio" id="O" name="user_btype" value="O" />
-                        <label for="AB">AB</label>
-                        <input type="radio" id="AB" name="user_btype" value="AB" />
-                    </div>
-                    <div class="user_mbti">
-                        <label for="i_user_mbti">MBTI</label>
-                        <div class="EnI">
-                            <span>E</span>
-                            <span>/</span>
-                            <span>I</span>
-                        </div>
-                        <div class="NnS">
-                            <span>N</span>
-                            <span>/</span>
-                            <span>S</span>
-                        </div>
-                        <div class="TnF">
-                            <span>T</span>
-                            <span>/</span>
-                            <span>F</span>
-                        </div>
-                        <div class="PnJ">
-                            <span>P</span>
-                            <span>/</span>
-                            <span>J</span>
-                        </div>
-                    </div> <!-- e: user_mbti -->
-                </fieldset>
-                <div class="agree">
-                    <label for="radio" class="agree">
-                        개인정보처리동의
-                        <input type="radio" id="agree" name="agree" value="agree"/>
+    <header>
+        <h1 class="logo">WhoamI</h1>
+    </header>
+    <div class="square sign_up">
+        <h2 class="section_name">SIGN UP</h2>
+        
+        <fieldset>
+            <div class="user_name clear">
+                <label for="i_user_name">닉네임</label>
+                <input type="text" id="i_user_name">
+            </div>
+
+            <div class="user_birth_n_gender clear">
+                <div class="user_birth">
+                    <label for="i_user_birth">생년월일</label>
+                    <input type="date" id="i_user_birth">
+                </div>
+                <div class="user_gender">
+                    <label for="i_user_gender" class="i_user_gender">
+                        <span class="on">남</span>
+                        <input type="radio" id="man" name="agree" value="남성" />
                     </label>
-                </div> <!-- e: agree -->
-                <div class="sign_up_btn">가입하기 버튼</div>
-                <h2>r00t project</h2>
-            </div> <!-- e: content -->
-        </div> <!-- e: container -->
-    </div> <!-- e: wrap -->
+                    <label for="i_user_gender" class="i_user_gender">
+                        <span class="on">여</span>
+                        <input type="radio" id="woman" name="agree" value="여성" />
+                    </label>
+                </div>
+            </div>
+            
+            <div class="user_btype clear">
+                <label for="i_user_btype">혈액형</label>
+                <label for="A">A</label>
+                <input type="radio" id="A" name="user_btype" value="A" />
+                <label for="B">B</label>
+                <input type="radio" id="B" name="user_btype" value="B" />
+                <label for="O">O</label>
+                <input type="radio" id="O" name="user_btype" value="O" />
+                <label for="AB">AB</label>
+                <input type="radio" id="AB" name="user_btype" value="AB" />
+            </div>
+            <div class="user_mbti">
+                <label for="i_user_mbti">MBTI</label>
+                <div class="EnI">
+                    <span>E</span>
+                    <span>/</span>
+                    <span>I</span>
+                </div>
+                <div class="NnS">
+                    <span>N</span>
+                    <span>/</span>
+                    <span>S</span>
+                </div>
+                <div class="TnF">
+                    <span>T</span>
+                    <span>/</span>
+                    <span>F</span>
+                </div>
+                <div class="PnJ">
+                    <span>P</span>
+                    <span>/</span>
+                    <span>J</span>
+                </div>
+            </div> <!-- e: user_mbti -->
+        </fieldset>
+        <div class="agree">
+            <label for="radio" class="agree">
+                개인정보처리동의
+                <input type="radio" id="agree" name="agree" value="agree"/>
+            </label>
+        </div> <!-- e: agree -->
+        <div class="sign_up_btn">가입하기 버튼</div>
+        <h2>r00t project</h2>
+    </div> <!-- e: content -->
 </body>
 </html>
