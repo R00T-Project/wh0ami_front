@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* temporary: 텍스트가 아닌 로고로 변경 예정 */
+.login {
+    text-align: center;
+    margin: 230px auto 0;
+}
+.login h1 {
+    font-size: 8rem;
+    font-weight: bold;
+    line-height: 116px;
+    margin-bottom: 80px;
+}
+.login .kakao_login_btn {
+    width: auto;
+    height: auto;
+    padding: 14px 20px;
+    border: 1px solid #7e7e7e;
+    border-radius: 10px;
+    color: #7e7e7e;
+
+    transition: transform .5s;
+}
+.login .kakao_login_btn span {
+    display: block;
+    float: left;
+    width: 32px;
+    height: 31px;
+    margin-right: 15px;
+    text-indent: -9999px;
+    overflow: hidden;
+
+    /* temporary: 카카오톡 로고 추가 */
+    background: url(../img/icon/kakaotalk_black.png) no-repeat center/contain;
+}
+.login .kakao_login_btn p {
+    display: block;
+    float: left;
+    font-size: 2rem;
+    line-height: 29px;
+
+    transition: color .5s;
+}
+.login .kakao_login_btn:hover {
+    transform: scale(1.01);
+}
+.login .kakao_login_btn:hover span {
+    background-image: url(../img/icon/kakaotalk_color.png);
+}
+.login .kakao_login_btn:hover p {
+    color: #000000;
+}
+.login h2 {
+    margin-top: 60px;
+    font-size: 2rem;
+}

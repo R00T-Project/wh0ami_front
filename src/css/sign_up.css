@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.sign_up {
+    margin: 0;
+    text-align: left;
+}
+
+.logo {
+    margin: 30px 0 138px 30px;
+    font-size: 3rem;
+    font-weight: 500px;
+}
+.section_name {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 43px;
+    margin-bottom: 40px;
+}
+label {
+    font-size: 2.4rem;
+    line-height: 35px;
+}
+.sign_up fieldset {
+    margin: 0 auto;
+}
+
+fieldset > div {
+    display: block;
+    width: 454px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.user_name > label,
+.user_birth > label {
+    float: left;
+}
